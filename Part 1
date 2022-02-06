@@ -1,0 +1,18 @@
+CREATE TABLE employees (
+     emp_no INT NOT NULL,   
+     first_name VARCHAR NOT NULL,
+     last_name VARCHAR NOT NULL,
+	PRIMARY KEY (emp_no)
+);	
+ SELECT * FROM public.employees
+
+ 
+ 
+CREATE TABLE titles (
+     emp_no INT NOT NULL,   
+     title VARCHAR NOT NULL,
+     from_date DATE NOT NULL,
+     to_date DATE NOT NULL,
+	PRIMARY KEY (emp_no)
+);	
+ SELECT * FROM public.titles
